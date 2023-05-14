@@ -173,7 +173,11 @@ public class enemy1 : MonoBehaviour, IDamageable
     public void Angry()
     {
 
-        canMove = true;
+
+
+
+
+        canMove = true; 
         anim.SetBool("iswalk", canMove);
         if (transform.position.x<player.transform.position.x){
             sprite.flipX = true;
